@@ -1,0 +1,258 @@
+#collasibleNavDropdown {
+  background-color: #353a40;
+}
+
+#controlPanel {
+  border: solid;
+  border-color: black;
+  height: 110%;
+  justify-content: center;
+  position: absolute;
+  width: 25%;
+  left: 0.1%;
+  top: -3%;
+}
+
+#homeScreen {
+  border-radius: 10px;
+  height: 94%;
+  overflow: hidden;
+  position: absolute;
+  top: 6%;
+  width: 100%;
+  z-index: 0;
+}
+
+#inputs {
+  justify-content: center;
+  text-align: left;
+}
+
+#miniMap {
+  left: 25.2%;
+  position: absolute;
+  width: 76%;
+}
+
+#navbar {
+  height: 6%;
+}
+
+#scrollBar{
+  height: 88%;
+  overflow: auto;
+}
+
+#tabs {
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.bottomMargin{
+  margin-bottom: -10%;
+}
+
+.boxplot{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.boxplotLeft{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.boxplotModal{
+  justify-content: center;
+  position: relative;
+  top: 10%;
+  width: 100%;
+  z-index: 100000000;
+}
+
+.btn-small{
+  margin:auto;
+  width: 100%;
+}
+
+.center{
+  text-align: center;
+}
+
+.demoDataLeft{
+  display: inline-block;
+  left: 10%;
+  position: relative;
+}
+
+.demographicDataBox{
+  background-color:white;
+  border: solid;
+  border-radius: 10px;
+  display: inline-block;
+  left: 25.2%;
+  opacity: .8;
+  position: absolute;
+  top: 60%;
+  width: 20%;
+  z-index: 10000;
+}
+
+.demographicDataBoxHidden{
+  display: none;
+}
+
+.filterDeleteButton{
+  color: red;
+}
+
+.filterOptions{
+  font-weight: bold;
+  color: black;
+  fill-opacity: .9;
+}
+
+.hidden{
+  display: none;
+}
+
+.image{
+  display: block;
+  left: 33%;
+  position: relative;
+}
+
+.largeFont{
+  font-size: 20px;
+}
+
+.layerControl{
+  background-color:#ffffff;
+  border: solid;
+  border-radius: 5px;
+  display: inline-block;
+  height: 31%;
+  left: 26%;
+  opacity: .8;
+  position: absolute;
+  top: 12%;
+  width: 10%;
+  z-index: 10000;
+}
+.layerControlHidden{
+  background-color:#ffffff;
+  border: solid;
+  border-radius: 5px;
+  display: inline-block;
+  height: 4.7%;
+  left: 26%;
+  opacity: .8;
+  position: absolute;
+  top: 12%; 
+  width: 6%;
+  z-index: 10000;
+}
+
+.leaflet-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.left{
+  position: absolute;
+  left: 9%;
+}
+
+.legend{
+  background-color:#ffffff;
+  border: solid;
+  border-radius: 5px;
+  display: inline-block;
+  height: 51%;
+  left: 80%;
+  position: absolute;
+  top: 49%;
+  width: 20%;
+  z-index: 10000;
+}
+
+.legendBottom{
+  left: 5%;
+  position: relative;
+  width: 90%;
+}
+
+.legendHidden{
+  background-color:#ffffff;
+  border: solid;
+  border-radius: 5px;
+  display: inline-block;
+  height: 110%;
+  left: 80%;
+  opacity: .8;
+  position: absolute;
+  top: 96%;
+  width: 20%;
+  z-index: 10000;
+}
+
+.legendTop{
+  left: 5%;
+  margin-bottom: -3%;
+  position: relative;
+  width: 90%;
+}
+
+.loadingScreen{
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.modal{
+  display: none;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+  z-index: 11111111;
+}
+
+.smallFont{
+  font-size: 10px;
+}
+
+.title{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.toggle{
+  background-color:#ffffff;
+  border: solid;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: -1%;
+  width: 100%;
+}
+
+.alertModalShow{
+  background-color:#ffffff;
+  border: solid;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  height: 7.6%;
+  width: 30%;
+  left: 35%;  
+  z-index: 1000000;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
